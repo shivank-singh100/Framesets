@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Using Framesets</title>
+    <style>
+        frame{
+            background-repeat: no-repeat;
+            background-size: cover;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+    <frameset rows="20%,50%, 50%" frameborder="1">
+
+        <frame src="mainhead.html">
+
+        <frameset cols="50%, 50%">
+            
+            <frameset rows="30%, *">
+                <frame src="head1.html" name="head1">
+                <frame src="frame1.html" name="frame1">
+            </frameset>
+            
+            <frameset rows="30%, *">
+                <frame src="head2.html" name="head2">
+                <frame src="frame2.html" name="frame2">
+            </frameset>
+
+        </frameset>
+        
+        <frameset cols="50%, 50%">
+
+            <frameset rows="30%, *">
+                <frame src="head3.html" name="head3">
+                <frame src="frame3.html" name="frame3">
+            </frameset>
+            
+            <frameset rows="30%, *">
+                <frame src="head4.html" name="head4">
+                <frame src="frame4.html" name="frame4">
+            </frameset>
+
+        </frameset>
+
+    </frameset>
+</html>
